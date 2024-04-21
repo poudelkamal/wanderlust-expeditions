@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Wanderlust Expeditions</title>
+  </head>
+  <body>
+    <head id="home">
+      <nav>
+        <div class="nav-bar">
+          <div class="nav-logo"><a href="#">Wanderlust Expeditions</a></div>
+          <ul class="nav-links">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li class="link"><a href="#about">About Us</a></li>
+            <li class="link"><a href="#gallery">Gallery</a></li>
+            <li class="link"><a href="contact.html">Contact</a></li>
+            <li class="link search">
+              <span><i class="ri-search-line"></i></span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="submit.php" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+        <div class="image-container">
+            <img src="assets/contact.jpeg" alt="Image">
+        </div>
+    </div>
+    
+    <section class="footer">
+      <div class="section-container footer-container">
+        <h4>Wanderlust Expeditions</h4>
+        <p>
+          Why settle for just a window seat when you can have a front-row ticket to the world?
+        </p>
+      </div>
+      <div class="footer-bar">
+        That's all. Thank you 
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
